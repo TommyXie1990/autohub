@@ -10,15 +10,28 @@ ADD . /workspace
 # 定义安装过程环境变量
 ENV SLUGIFY_USES_TEXT_UNIDECODE yes
 
+# 设置airflow工作目录
+ENV AIRFLOW_HOME=/workspace/airflow
+
 # 安装python 自动化测试解决方案依赖 
 RUN pip install -r requirements.txt
 
-# 映射80端口 
-EXPOSE 80
+# 初始化airflow
+
+RUN airflow initdb
+
+# 映射端口 
+EXPOSE 8080
 
 # 定义环境变量 
 # ENV NAME world
 
 # 容器启动时运行以下命令
 #CMD ["python", "app.py"]
+
+# 启动airflow
+# 启动web服务
+# RUN airflow webserver -p 8080
+# 启动scheduler
+# RUN airflow scheduler
 
