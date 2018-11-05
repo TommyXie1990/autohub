@@ -1,0 +1,8 @@
+Flask
+selenium
+requests
+Appium-python-Client
+robotframework
+datatest
+pytest
+apache-airflow
