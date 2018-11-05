@@ -4,7 +4,11 @@ Python Auto Testing Open Source Solution By 苦叶子
 
 # 为什么要发起autohub项目
 
-实践测试即代码，探讨基于Python的全栈自动化测试开源解决方案
+实践docker化的Python全栈自动化测试开源解决方案
+
+实践测试即代码
+
+# 说明
 
 Supported By：lymking@foxmail.com
 
