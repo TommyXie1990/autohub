@@ -1,5 +1,7 @@
 # autohub
-Python Auto Testing Open Source Solution
+Python Auto Testing Open Source Solution By 苦叶子
+
+Supported By：lymking@foxmail.com
 
 Python自动化测试开源解决方案
 
