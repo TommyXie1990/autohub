@@ -8,6 +8,33 @@ Python Auto Testing Open Source Solution By 苦叶子
 
 实践测试即代码
 
+# 如何使用
+
+1 安装docker [安装手册](https://docs.docker.com/compose/install/)
+
+2 查找autohub镜像
+
+![search](./images/search_autohub.png)
+
+3 下载最新的docker镜像
+
+![download](./images/download_autohub.png)
+
+4 启动autohub中的airflow
+
+![run](./images/run_autohub.png)
+
+5. 访问airflow web界面
+
+http://localhost:8080
+
+![airflow](./images/airflow_autohub.png)
+
+这是默认的airflow
+
+
+后续进一步更新autohub，以便大家了解如何基于autohub做企业级开源自动化测试解决方案
+
 # 说明
 
 Supported By：lymking@foxmail.com
