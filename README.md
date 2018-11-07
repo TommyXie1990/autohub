@@ -8,6 +8,10 @@ Python Auto Testing Open Source Solution By 苦叶子
 
 实践测试即代码
 
+# 所有文档
+
+所有的使用文档均放置在docs目录下
+
 # 如何使用
 
 1 安装docker [安装手册](https://docs.docker.com/compose/install/)

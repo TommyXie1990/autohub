@@ -1,4 +1,8 @@
 Flask
+flask_script
+flask_apscheduler
+flask_mail
+flask_restful
 selenium
 requests
 Appium-python-Client
